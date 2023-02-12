@@ -1,3 +1,5 @@
+### Fork from https://jekyllthemes.io/theme/mediator
+
 mediator
 ========
 
