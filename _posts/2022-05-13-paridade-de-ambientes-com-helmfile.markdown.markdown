@@ -4,6 +4,7 @@ title:  "#1 Paridade de ambientes com Helmfile"
 date:   2022-05-13 01:00:00 -0300
 categories: [ DevSecOps ]
 tags: [pt-BR]
+permalink: /posts/paridade-de-ambientes-com-helmfile
 ---
 
 A partir do momento que começamos a desenvolver sistemas para a nuvem, [reduzir a lacuna de ferramentas entre ambiente de desenvolvimento e produção é sempre um objetivo](https://12factor.net/pt_br/dev-prod-parity) e ao mesmo tempo um grande desafio, pois até mesmo com o advento dos containers e demais soluções de virtualização, algumas arestas ainda ficam pendentes de serem aparadas.
