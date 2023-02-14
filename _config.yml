@@ -2,6 +2,7 @@
 gems:
   - jemoji
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Site settings
 title: "Alvaro Inckot"
