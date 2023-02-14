@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "#1 Paridade de ambientes com Helmfile"
+title:  "Paridade de ambientes com Helmfile"
 date:   2022-05-13 01:00:00 -0300
 categories: [ DevSecOps ]
 tags: [pt-BR]
