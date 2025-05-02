@@ -7,7 +7,7 @@ gems:
 # Site settings
 title: "Alvaro Inckot"
 description: > # this means to ignore newlines until "email:"
-   A blog about software and the humans that create it.
+  Building the cloud from sand—one layer at a time.
 
 email: gmail@alvaroinckot.com
 #blog logo
