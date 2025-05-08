@@ -9,7 +9,7 @@ permalink: /posts/observability-balancing-its-benefits-and-costs-in-modern-softw
 
 Observability is table‑stakes for modern, distributed systems. By turning logs, metrics, and traces into a real‑time pulse of your stack, it shortens the path from “something’s wrong” to “here’s why.” That visibility lets teams ship faster with fewer surprises—but every new signal consumes storage, compute, and licensing dollars. The only way to scale responsibly is to weigh the value of observability against its cost, then adjust the dials accordingly.
 
-> **Heads‑up:** this post is denser than my usual braindumps—the spark came while I was geeking out on the latest research from [Splunk State of Observability 2024](https://www.splunk.com/en_us/campaigns/state-of-observability.html) and Google’s [2024 DORA Accelerate Report](https://cloud.google.com/static/devops/pdf/2024_final_dora_report.pdf). I pulled out some interesting numbers and mixed in my own notes so you can sanity‑check your observability spend.
+> **Heads‑up:** this post is denser than my usual braindumps—the spark came while I was geeking out on the latest research from [Splunk State of Observability 2024](https://www.splunk.com/en_us/campaigns/state-of-observability.html) and Google’s [2024 DORA Accelerate Report](https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report). I pulled out some interesting numbers and mixed in my own notes so you can sanity‑check your observability spend.
 
 ### Why bother with observability?
 
