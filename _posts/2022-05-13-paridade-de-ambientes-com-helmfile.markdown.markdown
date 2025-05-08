@@ -2,7 +2,7 @@
 layout: post
 title:  "Paridade de ambientes com Helmfile"
 date:   2022-05-13 01:00:00 -0300
-categories: [ DevSecOps ]
+categories: [ devsecops, tutorial ]
 tags: [pt-BR]
 permalink: /posts/paridade-de-ambientes-com-helmfile
 ---
