@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "email:"
 
 email: gmail@alvaroinckot.com
 #blog logo
-logo: "/assets/images/author.png"
+logo: "/assets/images/author.jpeg"
 logo_icon: "/assets/images/home_icon.png"
 float_logo: true # true, false (default)
 
@@ -20,7 +20,7 @@ cover: "/assets/images/background.png"
 
 name: 'Alvaro Inckot'
 author: 'Alvaro Inckot'
-author_image: "/assets/images/author.png"
+author_image: "/assets/images/author.jpeg"
 
 paginate:	5
 
