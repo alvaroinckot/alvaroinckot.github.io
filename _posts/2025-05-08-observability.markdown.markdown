@@ -24,6 +24,7 @@ Collecting telemetry isn’t free—storage, indexing, retention, and alert nois
 * Keep high‑cardinality logs only around critical flows.
 * Down‑sample long‑lived metrics after they’ve served their real‑time purpose.
 * Treat “debug” as a temporary state, not a default log level.
+* Tag every request with a request/trace ID. Without it, your logs are crossword puzzles with no clues.  
 
 ### A quick ROI gut‑check
 
