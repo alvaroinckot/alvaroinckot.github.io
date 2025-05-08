@@ -43,9 +43,9 @@ Observability isn’t just another dashboard—it’s a **force‑multiplier** t
 
 ### Links
 
-1. Splunk press release, “The Hidden Costs of Downtime,” June 11 2024 – <https://www.splunk.com/en_us/newsroom/press-releases/2024/conf24-splunk-report-shows-downtime-costs-global-2000-companies-400-billion-annually.html>  
-2. Google Cloud, *2024 Accelerate State of DevOps Report* – performance table p. 15 – <https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report>
-3. Splunk "State of Observability Report" 2024 - <https://www.splunk.com/en_us/form/state-of-observability.html>
+1. *[Splunk press release, “The Hidden Costs of Downtime,” June 11 2024](https://www.splunk.com/en_us/newsroom/press-releases/2024/conf24-splunk-report-shows-downtime-costs-global-2000-companies-400-billion-annually.html)*  
+2. *[Google Cloud, 2024 Accelerate State of DevOps Report – performance table p. 15](https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report)*  
+3. *[Splunk "State of Observability Report" 2024](https://www.splunk.com/en_us/form/state-of-observability.html)*  
 
 
 
