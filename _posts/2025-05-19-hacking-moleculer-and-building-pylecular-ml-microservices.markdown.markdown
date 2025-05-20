@@ -7,14 +7,13 @@ tags: [python, moleculer, pylecular, ml, microservices, en-US]
 permalink: /posts/hacking-moleculer-and-building-pyleculer-ml-ai-microservices
 ---
 
-Pylecular started as a genuine experiment. I wanted to combine my background in distributed systems with the lessons I had learned working with [Moleculer.js](https://moleculer.services/) a few years back. The goal wasn’t to build a framework or replace anything—it was to see what would happen if I took a powerful, event-driven microservice model and blended it with Python’s machine learning ecosystem.
+Pylecular started as a genuine experiment. I wanted to combine my background in distributed systems with the lessons I had learned working with [Moleculer.js](https://moleculer.services/) a few years back. The goal wasn’t to build a framework or replace anything, it was to see what would happen if I took a powerful, event-driven microservice model and blended it with Python’s machine learning ecosystem.
 
 > Check Pylecular at: [https://github.com/alvaroinckot/pylecular](https://github.com/alvaroinckot/pylecular)
 
-Python is already rich with ML tools. What it often lacks is a simple, expressive way to plug those tools into a distributed architecture. I was curious: could I take the things Moleculer does so well—brokers, actions, events, services—and apply them in a Pythonic way, letting models and data flows behave like modular agents? Could I create something that made it easier to spin up small, reactive ML systems, without the ceremony of setting up an entire platform?
+Python is already rich with ML tools. What it often lacks is a simple, expressive way to plug those tools into a distributed architecture. I was curious: could I take the things Moleculer does so well: brokers, actions, events, services; and apply them in a Pythonic way, letting models and data flows behave like modular agents? Could I create something that made it easier to spin up small, reactive ML systems, without the ceremony of setting up an entire platform?
 
 I wasn’t trying to solve every problem. I just wanted to connect what I already knew and see how far I could push it.
-
 
 Moleculer’s core concept is clean and effective: services register actions, and those actions can be called across the system via a central broker. No HTTP routes, no external APIs—just names and messages.
 
