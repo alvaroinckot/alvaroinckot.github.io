@@ -136,7 +136,7 @@ And here’s where it gets even more interesting.
 
 Pylecular naturally aligns with the goals of the [Model Context Protocol](https://modelcontextprotocol.io/introduction). With its Moleculer inspired service registry and event system, services can be dynamically discovered and composed. Tools, models, and workflows become addressable pieces within a shared protocol space. This opens the door for true composability, where each ML component is not just a script or container but a named, living service in the context of a wider system.
 
-There are mature and powerful tools out there—Kubeflow, KServe, LangChain, and others—that are designed for robustness, scalability, and reliability. They’re essential when the stakes are high and the systems are complex.
+There are mature and powerful tools out there" Kubeflow, KServe, LangChain, and other. They are designed for robustness, scalability, and reliability. They’re essential when the stakes are high and the systems are complex.
 
 But what about the hackers? The builders who want to spin something up tonight just to see if it works? The people who learn by stress testing ideas and connecting small pieces to see what breaks and what surprises them?
 
