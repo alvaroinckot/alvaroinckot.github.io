@@ -15,7 +15,7 @@ Python is already rich with ML tools. What it often lacks is a simple, expressiv
 
 I wasn’t trying to solve every problem. I just wanted to connect what I already knew and see how far I could push it.
 
-Moleculer’s core concept is clean and effective: services register actions, and those actions can be called across the system via a central broker. No HTTP routes, no external APIs—just names and messages.
+Moleculer’s core concept is clean and effective: services register actions, and those actions can be called across the system via a central broker. No HTTP routes, no external APIs, just names and messages.
 
 Like this:
 
