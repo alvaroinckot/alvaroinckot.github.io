@@ -4,7 +4,7 @@ title:  "Hacking Moleculer and Building Pylecular: A Journey into ML/AI Microser
 date:   2025-05-19 01:00:00 -0300
 categories: [microservices, machine-learning]
 tags: [python, moleculer, pylecular, ml, microservices, en-US]
-permalink: /posts/hacking-moleculer-and-building-pyleculer-ml-microservices
+permalink: /posts/hacking-moleculer-and-building-pyleculer-ml-ai-microservices
 ---
 
 Pylecular started as a genuine experiment. I wanted to combine my background in distributed systems with the lessons I had learned working with [Moleculer.js](https://moleculer.services/) a few years back. The goal wasn’t to build a framework or replace anything—it was to see what would happen if I took a powerful, event-driven microservice model and blended it with Python’s machine learning ecosystem.
