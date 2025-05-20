@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hacking Moleculer and Building Pylecular: A Journey into ML Microservices"
+title:  "Hacking Moleculer and Building Pylecular: A Journey into ML/AI Microservices"
 date:   2025-05-19 01:00:00 -0300
 categories: [microservices, machine-learning]
 tags: [python, moleculer, pylecular, ml, microservices, en-US]
@@ -37,9 +37,11 @@ And then:
 broker.call("math.add", { a: 5, b: 3 });
 ```
 
-Clean. Modular. Event aware by design.
+Simple. Modular. Event aware by default.
 
-It felt like something I could adapt to the way ML/AI development happens in Python. So I started porting Moleculer’s ideas into Python. First, a Broker class. Then a Service base class. I replicated the action and event system. The first few days were just me reverse engineering how services register themselves and communicate.
+This wasn’t just about reimplementing a concept in Python. One of the design goals is full interoperability with existing Moleculer services written in Node.js. That means a service written in Python using Pylecular can call actions or emit events to a Node.js Moleculer service, and vice versa. They speak the same protocol. They use the same service and action structure.
+
+This is important because the Moleculer ecosystem is already rich. It has proven patterns for service discovery, load balancing, fault tolerance, and more. There is a whole world of tooling built around it, from API gateways to metrics to transporters like NATS or Redis. With Pylecular, you do not have to start from scratch. You can build Python native ML services that plug directly into that ecosystem and start benefiting from it immediately.
 
 At this point, I wasn’t trying to innovate. I was trying to learn. Rebuild the mechanism. Understand the gears.
 
@@ -135,7 +137,7 @@ And here’s where it gets even more interesting.
 
 Pylecular naturally aligns with the goals of the [Model Context Protocol](https://modelcontextprotocol.io/introduction). With its Moleculer inspired service registry and event system, services can be dynamically discovered and composed. Tools, models, and workflows become addressable pieces within a shared protocol space. This opens the door for true composability, where each ML component is not just a script or container but a named, living service in the context of a wider system.
 
-There are mature and powerful tools out there—Kubeflow, KServe, and others—that are designed for robustness, scalability, and reliability. They’re essential when the stakes are high and the systems are complex.
+There are mature and powerful tools out there—Kubeflow, KServe, LangChain, and others—that are designed for robustness, scalability, and reliability. They’re essential when the stakes are high and the systems are complex.
 
 But what about the hackers? The builders who want to spin something up tonight just to see if it works? The people who learn by stress testing ideas and connecting small pieces to see what breaks and what surprises them?
 
