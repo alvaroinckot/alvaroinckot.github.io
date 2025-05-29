@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Skip the Puzzle, Review the Pull Request"
-date:   2025-05-19 01:00:00 -0300
+date:   2025-05-29 01:00:00 -0300
 categories: [braindump]
 tags: [en-US]
 permalink: /posts/skip-the-puzzle-review-the-pull-request
