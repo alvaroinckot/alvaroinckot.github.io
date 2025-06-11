@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "O Dia Em Que Construí Uma IA Para Prever Preços De Personagens De Tibia"
+title:  "O Dia em que Construí uma IA para Prever Preços de Personagens de Tibia"
 date:   2025-06-11 01:00:00 -0300
 categories: [ai, machine-learning]
 tags: [pt-BR]
