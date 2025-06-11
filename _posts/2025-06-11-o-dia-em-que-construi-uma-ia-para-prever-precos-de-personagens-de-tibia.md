@@ -43,7 +43,7 @@ Prometi a mim mesmo **90% R²** em dados de teste, o suficiente para passar em m
 
 ### v1: Baseline e Checagem de Realidade
 
-Comecei com as estatísticas óbvias: level, vocation, world type e um punhado de outros atributos numéricos, trinta colunas no total. Uma rápida busca em grade no XGBoost básico empurrou o R² de treinamento para além de 0,94, mas o R² de teste estacionou em 0,89 enquanto o MAPE oscilava por toda parte, especialmente em characters de baixo level. O modelo estava memorizando o conjunto de treinamento e aprendendo pouco sobre preços do mundo real, útil apenas como base para trabalhos futuros.
+Comecei com as estatísticas óbvias: level, vocation, world type e um punhado de outros atributos numéricos, trinta colunas no total. Uma rápida busca em grade no XGBoost básico empurrou o R² de treinamento para além de 0,94, mas o R² de teste estacionou em 0,89 enquanto o MAPE oscilava por toda parte, especialmente em personagens de baixo level. O modelo estava memorizando o conjunto de treinamento e aprendendo pouco sobre preços do mundo real, útil apenas como base para trabalhos futuros.
 
 ### v2: Empacotando o Lore
 
@@ -75,7 +75,7 @@ A evolução da engenharia de features em números:
 - **Demo**: <https://huggingface.co/spaces/alvaroinckot/tcaqs>  
 - **Code**: <https://github.com/alvaroinckot/tcaqs>
 
-Preencha as informações do character e obtenha uma estimativa. Sem mais adivinhações antes de gastar.
+Preencha as informações do personagem e obtenha uma estimativa. Sem mais adivinhações antes de gastar.
 
 ## O que vem a seguir?
 
