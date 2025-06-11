@@ -9,6 +9,8 @@ permalink: /posts/the-day-i-built-an-ai-to-predict-tibia-character-prices
 
 A story about TCAQS: Tibia Character Automated Quotation System
 
+> Portuguese version: [Link](https://www.alvaroinckot.com/posts/o-dia-em-que-construi-uma-ia-para-prever-precos-de-personagens-de-tibia)
+
 ## The spark (late‑night 2022)
 
 Picture a rainy Sunday in 2022. I’m procrastinating on real‑life chores by scrolling Tibia’s brand‑new auction house, looking at characters priced like beachfront property. _Surely_ there’s a pattern here, I thought. Fifteen years of playing Tibia had wired my brain to sniff under‑ or over‑priced deals the way other people smell fresh coffee.
