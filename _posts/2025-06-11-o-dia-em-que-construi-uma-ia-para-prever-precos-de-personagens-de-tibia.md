@@ -13,7 +13,7 @@ Uma história sobre TCAQS: Tibia Character Automated Quotation System
 
 ## O início (final de 2022)
 
-Imagine um domingo chuvoso em 2022. Eu estava procrastinando tarefas da vida real navegando pelo novíssimo auction house do Tibia, olhando para chars precificados como propriedades à beira-mar. _Certamente_ existe um padrão aqui, pensei. Quinze anos jogando Tibia haviam programado meu cérebro para achar negócios sub ou supervalorizados.
+Imagine um domingo chuvoso em 2022. Eu estava procrastinando tarefas da vida real navegando pelo novíssimo auction house do [Tibia](https://www.tibia.com/news/?subtopic=latestnews), olhando para chars precificados como propriedades à beira-mar. _Certamente_ existe um padrão aqui, pensei. Quinze anos jogando Tibia haviam programado meu cérebro para achar negócios sub ou supervalorizados.
 
 Então abri o VS Code e escrevi a primeira linha do que viria a ser o TCAQS: `async def crawl(url): ...`  
 
