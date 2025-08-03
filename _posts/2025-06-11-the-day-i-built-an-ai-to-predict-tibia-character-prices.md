@@ -15,7 +15,7 @@ A story about TCAQS: Tibia Character Automated Quotation System
 
 Picture a rainy Sunday in 2022. I’m procrastinating on real‑life chores by scrolling [Tibia’s brand‑new auction house](https://www.tibia.com/news/?subtopic=latestnews), looking at characters priced like beachfront property. _Surely_ there’s a pattern here, I thought. Fifteen years of playing Tibia had wired my brain to sniff under‑ or over‑priced deals the way other people smell fresh coffee.
 
-So I opened VS Code and wrote the first line of what would become TCAQS: `async def crawl(url): ...`  
+So I opened VS Code and wrote the first line of what would become TCAQS: `async def scrap(url): ...`  
 Mission: scrape every single auction record, teach a model to predict fair prices, and maybe—just maybe—save a few souls from paying 6k TC in a skill-less knight in Antica.
 
 

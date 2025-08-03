@@ -13,13 +13,15 @@ Uma história sobre TCAQS: Tibia Character Automated Quotation System
 
 ## O início (final de 2022)
 
-Imagine um domingo chuvoso em 2022. Eu estava procrastinando tarefas da vida real navegando pelo novíssimo auction house do [Tibia](https://www.tibia.com/news/?subtopic=latestnews), olhando para chars precificados como propriedades à beira-mar. _Certamente_ existe um padrão aqui, pensei. Quinze anos jogando Tibia haviam programado meu cérebro para achar negócios sub ou supervalorizados.
+Imagine um domingo chuvoso em 2022. Eu estava procrastinando tarefas da vida real navegando pelo novíssimo auction house do [Tibia](https://www.tibia.com/news/?subtopic=latestnews), olhando para personagens precificados como propriedades à beira-mar. _Certamente_ existe um padrão aqui, pensei. Quinze anos jogando Tibia haviam programado meu cérebro para achar negócios sub ou supervalorizados.
 
-Então abri o VS Code e escrevi a primeira linha do que viria a ser o TCAQS: `async def crawl(url): ...`  
+Então abri o VS Code e escrevi a primeira linha do que viria a ser o TCAQS: `async def scrap(url): ...`  
+
+Missão: raspar todos os registros de leilão, ensinar um modelo a prever preços justos e talvez—só talvez—salvar algumas almas de pagar 6k TC em um knight sem skills em Antica.
 
 ## Três semanas, 650.000 arquivos HTML, um laptop sobrecarregado
 
-O rate-limiter do Tibia é o equivalente digital a um peso no tornozelo. Três requisições por segundo não é uma sugestão — é a lei. Multiplique isso por meio milhão de páginas e você tem **seis dias** de crawling constante (adicione quedas constantes de rede e algum tempo de inatividade do site do Tibia também). Quando a pasta `results/` finalmente atingiu 650 mil arquivos, compactei-a, dei tapinhas nas costas e... prontamente me mudei para os Estados Unidos.
+O rate-limiter do Tibia é o equivalente digital a um peso no tornozelo. Três requisições por segundo não é uma sugestão — é a lei. Multiplique isso por meio milhão de páginas e você tem **seis dias** de scraping constante (adicione quedas constantes de rede e algum tempo de inatividade do site do Tibia também). Quando a pasta `results/` finalmente atingiu 650 mil arquivos, compactei-a, dei um tapinhas nas costas e... prontamente me mudei para os Estados Unidos.
 
 A vida aconteceu: vistos, caixas, uma onda de calor na Flórida. `tcaqs/` juntou poeira em um disco de backup.
 
@@ -47,7 +49,7 @@ Comecei com as estatísticas óbvias: level, vocation, world type e um punhado d
 
 ### v2: Empacotando o Lore
 
-Em seguida, adicionei as features que realmente impulsionam os preços do Tibia, como quest flags, mounts raros, outfits, hirelings e server type, todos codificados one-hot e reequilibrados. O ajuste de hiperparâmetros elevou o R² de teste para 0,94 e suavizou previsões para chars de médio a alto level. A nova fraquesa, no entanto, eram personagens de baixo level em servidores recém-abertos. Eles começam superfaturados porque os early adopters têm excesso de TC investido, depois caem rapidamente à medida que a economia do servidor amadurece, então seus valores reais flutuam mais rápido do que minha coleta estática poderia capturar, mantendo o MAPE alto nessa fatia.
+Em seguida, adicionei as features que realmente impulsionam os preços do Tibia, como quest flags, mounts raros, outfits, hirelings e server type, todos codificados one-hot e reequilibrados. O ajuste de hiperparâmetros elevou o R² de teste para 0,94 e suavizou previsões para chars de médio a alto level. A nova fraquesa, no entanto, eram personagens de baixo level em servidores recém-abertos. Eles começam superfaturados porque os early adopters têm excesso de TC investido, depois caem rapidamente à medida que a economia do servidor amadurece, então seus valores reais flutuam mais rápido do que minha coleta estática poderia capturar, mantendo o MAPE alto nessa faixa.
 
 ### v3: Eliminando um problema crucial
 
