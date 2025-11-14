@@ -36,12 +36,12 @@ google_analytics: G-GFZDFDDGGN
 
 # social icons and sharing options
 social:
-  # - icon:	twitter
-  #   url:	https://twitter.com/alvaroinckot
-#     desc: Follow me on twitter
-#     share_url: http://twitter.com/share
-#     share_title: ?text=
-#     share_link: "&amp;url="
+  - icon:	twitter
+    url:	https://x.com/alvaroinckot
+    desc: Follow me on X
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
 
 #   - icon:	facebook
 #     url:	https://facebook.com/???
