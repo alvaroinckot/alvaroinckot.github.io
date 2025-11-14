@@ -7,7 +7,7 @@ tags: en-US
 permalink: /posts/authorization-in-a-shifting-maze
 ---
 
-Everyone’s hitting the same wall with OPA. It starts great, externalizing policies, central control, policy-as-code. But once you go past a few dozen rules, things start to feel heavy. Latency creeps in. Your rules grow from clean to unreadable. You add a “deny all” just to keep things safe and now you’re chasing ghosts in staging. And the worst part is, once you finally get a policy to say “yes” or “no”, you still don’t know who else that rule applies to. You know it worked, but not why, or who’s living in the same permission shadow.
+Everyone’s hitting the same wall with OPA (Open Policy Agent). It starts great, externalizing policies, central control, policy-as-code. But once you go past a few dozen rules, things start to feel heavy. Latency creeps in. Your rules grow from clean to unreadable. You add a “deny all” just to keep things safe and now you’re chasing ghosts in staging. And the worst part is, once you finally get a policy to say “yes” or “no”, you still don’t know who else that rule applies to. You know it worked, but not why, or who’s living in the same permission shadow.
 
 So people start looking elsewhere. ReBAC pops up in the conversation. SpiceDB, ORY, the whole Zanzibar-inspired crowd. The promise is seductive, represent relationships as first-class citizens, turn permissions into something you can query and explain. Who can read this doc? Just ask. Who has access to a project? Query the graph. It feels closer to how we think about access, and a lot closer to how auditors ask questions.
 
